@@ -5,6 +5,7 @@
     "name": "Mark Webber",
     "notif": "reacted to your recent post",
     "post": "My first tournement today!",
+    "image":"",
     "message": "",
     "time": "1m ago"
   },
@@ -14,6 +15,7 @@
     "name": "Angela Gray",
     "notif": "followed you",
     "post": "",
+    "image":"",
     "message": "",
     "time": "5m ago"
   },
@@ -23,6 +25,7 @@
     "name": "Jakob Thompson",
     "notif": "sent you a private message",
     "post": "Chess Club",
+    "image":"",
     "message": "",
     "time": "5days ago"
   },
@@ -32,6 +35,7 @@
     "name": "Rizky Hasanuddin",
     "notif": "has joined your group",
     "post": "",
+    "image":"",
     "message": "Hello, thanks for setting up the Chess Club. I've been a member of a few weeks now and I'm already having lots of fun and improving my game.",
     "time": "1day ago"
   },
@@ -41,6 +45,7 @@
     "name": "Kimberly Smith",
     "notif": "commented on your picture",
     "post": "",
+    "image":"image-chess.webp",
     "message": "",
     "time": "1week ago"
   },
@@ -50,6 +55,7 @@
     "name": "Nathan Peterson",
     "notif": "reacted your recent post",
     "post": "5 end-game strategies to increase your win rate",
+    "image":"",
     "message": "",
     "time": "2week ago"
   },
@@ -59,6 +65,7 @@
     "name": "Anna Kim",
     "notif": "left the group",
     "post": "Chess Club",
+    "image":"",
     "message": "",
     "time": "2week ago"
   }

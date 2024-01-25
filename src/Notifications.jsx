@@ -9,15 +9,16 @@ const Notifications = ({ unreaded, setUnreaded, setCount }) => {
     const [bcgWhite, setBcgWhite] = useState([])
 
     const handleReaded = (id) => { 
-        // const newArr = unreaded.id.filter(item=>item !== id)
+        // const newArr = unreaded.filter(item=>item.id !== id)
         // console.log(newArr);
+        // setUnreaded(newArr)
         
         setBcgWhite(prev => [...prev,id])
         console.log(bcgWhite);
         setCount(prev =>prev <= 0 ? 0 :prev - 1)
      }
-    const ids =[];
-    unreaded.map(item=>ids.push(item.id))
+    // const ids =[];
+    // unreaded.map(item=>ids.push(item.id))
     // console.log(ids);
 
     useEffect(() => {
@@ -40,7 +41,14 @@ const Notifications = ({ unreaded, setUnreaded, setCount }) => {
                 <div>
                 <Card.Body className='d-flex align-items-center '>
                     <p><span className='name'>{item.name} </span> {item.notif} <span className='post'>{item.post}</span></p>
-                    <div className={`circle ${bcgWhite.includes(item.id) ? 'd-none' : ''}`}></div>
+                    <span className={`circle ${bcgWhite.includes(item.id) ? 'd-none' : ''}`}></span>
+                    {
+                  item.image?(
+                    <div>
+                      <img className='shared-img' src={`img/${item.image}`} alt='chess'/>
+                    </div>
+                  ):("")
+                }
                 </Card.Body>
                 <p className='m-0'>{item.time}</p>
                 {
@@ -49,8 +57,7 @@ const Notifications = ({ unreaded, setUnreaded, setCount }) => {
                     {item?.message}
                 </div>
                     ):("")
-                }
-                
+                }       
                 </div>
             </Card>
         ))
