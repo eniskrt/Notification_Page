@@ -1,0 +1,55 @@
+@use "./variables" as v;
+
+.main-container{
+    background-color: v.$white!important;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow:10px 10px 15px v.$lightGrayishBlue-2 ;
+    width:600px ;
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        .notif{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            h1{
+                font-size: 1.2rem;
+                font-weight: 800;
+                color: v.$veryDarkBlue;
+                margin: 0;
+            }
+
+            span{
+                background-color: v.$blue!important;
+                padding: 0.5rem 0.7rem;
+            }
+        }
+
+        button{
+            background-color: inherit;
+            color: v.$grayishBlue;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: none;
+
+            &:active{
+                background-color: inherit;
+                border: none;
+                font-weight: 500;
+                color: v.$blue;
+            }
+
+            &:hover{
+                color: v.$blue;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id":"1",
+    "avatar":"mark-webber",
+    "name": "Mark Webber",
+    "notif": "reacted to your recent post",
+    "post": "My first tournement today!",
+    "message": "",
+    "time": "1m ago"
+  },
+  {
+    "id":"2",
+    "avatar":"angela-gray",
+    "name": "Angela Gray",
+    "notif": "followed you",
+    "post": "",
+    "message": "",
+    "time": "5m ago"
+  },
+  {
+    "id":"3",
+    "avatar":"jacob-thompson",
+    "name": "Jakob Thompson",
+    "notif": "sent you a private message",
+    "post": "Chess Club",
+    "message": "",
+    "time": "5days ago"
+  },
+  {
+    "id":"4",
+    "avatar":"rizky-hasanuddin",
+    "name": "Rizky Hasanuddin",
+    "notif": "has joined your group",
+    "post": "",
+    "message": "Hello, thanks for setting up the Chess Club. I've been a member of a few weeks now and I'm already having lots of fun and improving my game.",
+    "time": "1day ago"
+  },
+  {
+    "id":"5",
+    "avatar":"kimberly-smith",
+    "name": "Kimberly Smith",
+    "notif": "commented on your picture",
+    "post": "",
+    "message": "",
+    "time": "1week ago"
+  },
+  {
+    "id":"6",
+    "avatar":"nathan-peterson",
+    "name": "Nathan Peterson",
+    "notif": "reacted your recent post",
+    "post": "5 end-game strategies to increase your win rate",
+    "message": "",
+    "time": "2week ago"
+  },
+  {
+    "id":"7",
+    "avatar":"anna-kim",
+    "name": "Anna Kim",
+    "notif": "left the group",
+    "post": "Chess Club",
+    "message": "",
+    "time": "2week ago"
+  }
+]

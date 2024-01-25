@@ -1,0 +1,76 @@
+@use "./_variables.scss" as v;
+
+.card{
+    display: flex;
+    flex-direction: row!important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom:1rem;
+    border: none!important;
+    background-color:v.$lightGrayishBlue-1!important;
+    cursor: pointer;
+
+    &.selected{
+        background-color: white!important;
+    }
+
+    img{
+        width: 35px;
+        height: auto;
+        margin-left: 0.5rem;
+    }
+
+    .card-body{
+        padding: 0;
+
+        p{
+            margin: 0;
+            font-size: 13px;
+            color: v.$darkGrayishBlue;
+
+            .name{
+                color: v.$veryDarkBlue!important;
+                font-weight: 800;
+
+                &:hover{
+                    color: v.$blue!important;
+                }
+            }
+
+            .post{
+                color: v.$darkGrayishBlue;
+                font-weight: 800;
+
+                &:hover{
+                    color: v.$blue;
+                }
+            }
+        }
+    }
+
+    p{
+        margin: 0;
+        font-size: 13px;
+        color: v.$grayishBlue;
+    }
+
+    .message{
+        border: 1px solid v.$grayishBlue;
+        font-size: 13px;
+        padding: 0.5rem;
+        color: v.$darkGrayishBlue;
+        margin-top: 0.5rem;
+    }
+    .circle{
+        background-color: v.$red;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        margin-left: 0.3rem;
+    }
+}
+.card.selected {
+    background-color: #f0f0f0; /* veya istediğiniz başka bir renk */
+}
